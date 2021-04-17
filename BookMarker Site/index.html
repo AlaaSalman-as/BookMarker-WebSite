@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="english">
+    <head>
+        <title>Book Marker</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="Yellowtail/Yellowtail-Regular.ttf" >
+        <link rel="stylesheet" href="style/bootstrap.min.css" >
+        <link rel="stylesheet" href="style/style.css" >
+
+       <script src="js/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+<!--***********************************************************************************************************************-->
+        <section class="container one">
+            <section class="row">
+                <div class="col w-100">
+                    <h1 class="lead w-100">Bookmarker</h1>
+                </div>
+
+                <section class="w-100 mt-4 box">
+                    <h1 class="lead text-center">Bookmark your favorite sites</h1>
+
+                    <section >
+                        <div class="form-group">
+                            <center><label class="lead">Site Name</label></center>
+                            <center><input placeholder="Bookmark Name" type="text" class="form-control w-75" id="SiteName" value=""></center>
+                        </div>
+                        <div class="form-group">
+                            <center><label class="lead">Site Url</label></center>
+                            <center><input placeholder="Website Url" type="text" class="form-control w-75" id="SiteUrl" value=""></center>
+                        </div>
+                        <div class="our_supmate">
+                            <center><button onclick="supmate()" class="btn btn-primary w-25"  >Supmate</button></center>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="container bookmarks_detailes mt-5 col-md-12 row">
+                    <table class="table w-75 m-auto py-2  ">
+                        <thead>
+                           <tr>
+                            <th>Number </th>
+                            <th>BookmarkName </th>
+                            <th>Bookmark Url </th>
+                            <th>Update </th>
+                            <th>Delete </th>
+                           </tr>
+                        </thead>
+                        <tbody id="table_body">
+                           <!-- <tr> 
+                                <td>Example</td>
+                                <td>youtube </td>
+                                <td><a href="https://www.youtube.com/" target="_blank" id="link">https://www.youtube.com/ </a></td>
+                                <td><a href="https://www.youtube.com/" class="btn btn-warning">Visit </a></td>
+                                <td><button class="btn btn-danger">Delete </button></td>
+                            </tr> -->
+                        </tbody>
+                      </table>
+                </section>
+
+              <section class="w-100 col mt-5">
+                    <h5 class="lead text-muted w-100 col">© 2020 Ala'a Odeh.</h5>
+                </section>
+            </section>
+        </section>
+<!--***********************************************************************************************************************-->
+
+<script src="js/index.js"></script>
+
+    </body>
+</html>

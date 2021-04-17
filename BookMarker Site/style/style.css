@@ -1,0 +1,56 @@
+body{
+    background-color:#d194b9;
+    /* height:1000px; */
+    margin:0px;
+    padding-top:50px;
+    font-family:"Yellowtail";
+    font-size:50px;
+}
+/**********************************************************************************************************/
+
+.one > section > div > h1{
+    font-size:2.5rem;
+    color:#862d63;
+    opacity:.8;
+}
+.box{
+    color:white;
+    padding: 50px;
+    background-color:#811959;
+}
+.box > h1{
+    font-size:2rem;
+}
+.our_supmate > center >button{
+    margin-top:30px;
+    border-color:#000000;
+    background-color:#000000;
+    color:white;
+}
+.our_supmate > center >button:hover {
+    border-color:white;
+    background-color:white;
+    color:#4e0f36;
+    box-shadow:#811959;
+    transition:.5s ease;
+}
+
+.bookmarks_detailes > table >thead {
+    background-color:white;
+}
+.bookmarks_detailes > table > thead >tr > th {
+    font-size:1.5rem;
+    /* padding:20px; */
+    text-align: center;
+}
+.bookmarks_detailes > table > tbody {
+    background-color:white !important;
+    opacity: .9;
+
+}
+.bookmarks_detailes > table > tbody > tr > td {
+    font-size:1.5rem;
+    /* padding:30px; */
+    text-align: center;
+}
+/*************************************************************************************************************/
